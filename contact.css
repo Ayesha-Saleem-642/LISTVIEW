@@ -1,0 +1,222 @@
+.line {
+    font-family: 'Lato', 'Arial';
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, #fff, transparent);
+    animation: slideRight 5s linear infinite;
+  }
+  
+  @keyframes slideRight {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+     background-color: #ffedcc;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-left: 35px;
+    margin-bottom: -14px;
+   
+  }
+  
+  h1 {
+   font-size: 36px;
+  margin: 0;
+    margin-right: 0px;
+  margin-right: 980px;
+  color: black;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 700;
+  
+  
+  }
+  
+  
+  main {
+    padding: 40px;
+  background-color: #ffedcc;
+  width: 600px;
+  margin-block: auto;
+  display: flex;
+  }
+  
+  .contact-form {
+    max-width: 400px;
+    margin-left: 50px;
+    flex: 1; /* Take the available space on the left */
+    padding: 20px;
+  }
+  
+  .css-img4 {
+    flex: 1; 
+    margin-block: auto;
+    height: 40px;
+  /* Take the available space on the right */
+  }
+   .css-img4 img{
+   
+    vertical-align: middle;
+    height: 500px;
+    margin-left: 900px;
+    margin-top: -650px;
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    margin-right: 50px;
+  }
+   
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #3a3e42;;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: black;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar1 {
+    background-color: #ffedcc; /* Light yellow color for the navbar background */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: bold;
+    background: rgb(64, 65, 67); /* Pink color for the text */
+    background-color: #fff; /* White color for the background */
+    padding: 0px 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transform: rotate(-5deg); /* Rotate the text slightly */
+    transition: transform 0.2s ease-in-out;
+    height: 70px;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1) rotate(5deg); /* Scale up and rotate on hover for a playful effect */
+  }
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  hr.styled-hr {
+    border: none;
+    height: 3px;
+    background-color: #0000;
+    /* width: 80px; */
+    margin: 20px auto;
+    margin-block: auto;
+  
+  }
+  
+  .contact-text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    width: 500px;
+    color: #333;
+    margin: 30px 0;
+      margin-left: 0px;
+    margin-left: 110px;
+  }
+  
+  
+  
+  
+   
+ 
+  
+  
+  
+  
